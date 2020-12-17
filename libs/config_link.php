@@ -1,8 +1,8 @@
 <?php  
-	$config_Home = "http://tangkinhcac.atwebpages.com/";
-	$config_Login = "http://tangkinhcac.atwebpages.com/dang-nhap";
-	$config_Register = "http://tangkinhcac.atwebpages.com/dang-ky";
-	$config_Admin = "http://tangkinhcac.atwebpages.com/bang-dieu-khien";
-	$config_DataBase = "https://supportindeed.com/phpMyAdmin4/index.php?db=3577757_tangkinhcac&lang=vi&collation_connection=utf8mb4_unicode_ci&token=fa0f3ee9b7ad2b0221dca07a0d45321a";
-	$config_SaveIMG = "http://tangkinhcac.atwebpages.com/storage/";
+	$config_Home = "http://localhost:82/QLDAPM/QuanLyDeAnPhanMem-18Th1/";
+	$config_Login = "http://localhost:82/QLDAPM/QuanLyDeAnPhanMem-18Th1/dang-nhap";
+	$config_Register = "http://localhost:82/QLDAPM/QuanLyDeAnPhanMem-18Th1/dang-ky";
+	$config_Admin = "http://localhost:82/QLDAPM/QuanLyDeAnPhanMem-18Th1/bang-dieu-khien";
+	$config_DataBase = "localhost:82/phpmyadmin/db_structure.php?server=1&db=db_tangkinhcac_final_v2";
+	$config_SaveIMG = "http://localhost:82/QLDAPM/QuanLyDeAnPhanMem-18Th1/storage/";
 ?>
