@@ -348,7 +348,7 @@ $(document).ready(function(){
 		$.post("./index.php?url=ajax-update"); 
 	}
 
-	setInterval(Update, 1000000);
+	setInterval(Update, 100);
 
 });
 

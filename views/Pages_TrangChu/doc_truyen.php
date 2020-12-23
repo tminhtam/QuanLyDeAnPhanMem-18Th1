@@ -22,7 +22,7 @@
 		<div class="content-truyen">
 			<div class="phan-trang mb-3">
 				<a class="btn my-btn-luot btn-trai btn-outline-secondary <?php echo $data['chuong_truoc']['id']; ?>" href="doc-truyen/<?php echo $_GET['title']; ?>/<?php echo $data['chuong_truoc']['title_u']; ?>-<?php echo $data['chuong_truoc']['id']; ?>.html">← Prev</a>
-				<a class="btn my-btn-luot btn-phai float-right btn-outline-secondary <?php echo $data['chuong_sau']['id']; ?>" href="doc-truyen/<?php echo $_GET['title']; ?>/<?php echo $data['chuong_sau']['title_u']; ?>-<?php echo $data['chuong_sau']['id']; ?>.html">Next →</a>
+				<a class="btn my-btn-luot btn-phai float-right btn-outline-secondary <?php echo $data['chuong_sau']['id']; ?>" href="doc-truyen/<?php echo $_GET['title']; ?>/<?php if(isset($data['chuong_sau']['title_u'])) echo $data['chuong_sau']['title_u']; ?>-<?php echo $data['chuong_sau']['id']; ?>.html">Next →</a>
 			</div>
 
 			<div id="content-noi-dung" class="px-3">
@@ -41,7 +41,7 @@
 
 			<div class="phan-trang mb-3">
 				<a class="btn my-btn-luot btn-trai btn-outline-secondary <?php echo $data['chuong_truoc']['id']; ?>" href="doc-truyen/<?php echo $_GET['title']; ?>/<?php echo $data['chuong_truoc']['title_u']; ?>-<?php echo $data['chuong_truoc']['id']; ?>.html">← Prev</a>
-				<a class="btn my-btn-luot btn-phai float-right btn-outline-secondary <?php echo $data['chuong_sau']['id']; ?>" href="doc-truyen/<?php echo $_GET['title']; ?>/<?php echo $data['chuong_sau']['title_u']; ?>-<?php echo $data['chuong_sau']['id']; ?>.html">Next →</a>
+				<a class="btn my-btn-luot btn-phai float-right btn-outline-secondary <?php echo $data['chuong_sau']['id']; ?>" href="doc-truyen/<?php echo $_GET['title']; ?>/<?php if(isset($data['chuong_sau']['title_u'])) echo $data['chuong_sau']['title_u']; ?>-<?php echo $data['chuong_sau']['id']; ?>.html">Next →</a>
 			</div>
 
 			<div class="info-chap pb-2">
